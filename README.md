@@ -142,7 +142,7 @@ This project analyzes sales revenue, not profit. Product costs, operating expens
 ## Author
 
 **Vincent Kenyatta**  
-ICT Professional | Aspiring Data Analyst | Technology Educator
+ICT Professional | SQL & Data Analytics Practitioner | Technology Educator
 
 [GitHub Profile](https://github.com/vincentokello770-arch) · [Project Repository](https://github.com/vincentokello770-arch/sql-business-sales-analysis)
 

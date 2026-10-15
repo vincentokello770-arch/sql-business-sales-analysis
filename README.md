@@ -1,34 +1,46 @@
 ﻿# SQL Business Sales Analysis
 
-A beginner-friendly, portfolio-ready data analytics project using
-Python, SQLite, and SQL to analyze synthetic retail sales data.
+A hands-on data analytics project using **Python, SQLite, and SQL** to analyze synthetic retail sales data for a fictional Kenyan business. The project demonstrates how raw transaction data can be transformed into a database, analyzed with SQL, and translated into actionable business insights.
 
 ## Project Objectives
 
 - Build a relational database from a CSV dataset.
-- Calculate sales revenue and units sold.
+- Calculate total revenue, transactions, and units sold.
 - Rank products by revenue.
 - Compare regional sales performance.
 - Analyze monthly revenue trends.
-- Communicate findings through a business report.
+- Document findings and business recommendations.
 
 ## Technology Stack
 
-- Python 3.10+
-- SQLite
-- SQL
-- Git and GitHub
+- **Python 3.10+** — dataset generation, database creation, and query execution
+- **SQLite** — relational database storage
+- **SQL** — aggregation, grouping, ranking, and date-based analysis
+- **Git and GitHub** — version control and project publishing
 
-No third-party Python packages or database server are required.
+No third-party Python packages or separate database server are required.
 
 ## Dataset
 
-The dataset contains 120 synthetic transactions from a fictional
-Kenyan retail business. It includes order dates, regions, products,
-quantities, unit prices, and payment methods.
+The dataset contains **120 synthetic retail transactions** from a fictional Kenyan business. Fields include order dates, regions, product details, quantities, unit prices, and payment methods.
 
-All monetary values are expressed in Kenyan shillings (KES).
-The data is fictional and is intended for educational purposes only.
+All monetary values are expressed in Kenyan shillings (KES). The data is fictional and intended for educational purposes.
+
+## Key Results
+
+| Metric | Result |
+|---|---:|
+| Total revenue | KES 7,060,800 |
+| Transactions | 120 |
+| Units sold | 362 |
+| Highest-revenue product | Laptop |
+| Laptop revenue | KES 4,225,000 |
+| Highest-revenue region | Mombasa |
+| Mombasa revenue | KES 1,801,000 |
+| Highest-revenue month | May 2026 |
+| May revenue | KES 1,660,800 |
+
+These results describe the synthetic dataset, not actual commercial performance. Revenue is not profit.
 
 ## Project Structure
 
@@ -49,34 +61,39 @@ sql-business-sales-analysis/
 └── .gitignore
 ```
 
-The SQLite database is generated locally and is not committed
-to the repository.
+The SQLite database is generated locally and excluded from version control. This keeps the repository lightweight and demonstrates a reproducible workflow.
 
 ## How to Run the Project
 
+### Prerequisites
+
+Install Python 3.10 or later and Git. Confirm they are available:
+
+```powershell
+python --version
+git --version
+```
+
 ### 1. Clone the repository
 
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+```powershell
+git clone https://github.com/vincentokello770-arch/sql-business-sales-analysis.git
 cd sql-business-sales-analysis
 ```
 
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual repository URL.
-
 ### 2. Generate the dataset (optional)
 
-The supplied CSV is already included. To regenerate the same
-synthetic dataset, run:
+The supplied CSV is already included. To regenerate the synthetic dataset:
 
-```bash
+```powershell
 python generate_data.py
 ```
 
-Regenerating the data replaces the existing CSV.
+This replaces the existing CSV with a reproducible dataset.
 
-### 3. Build the database
+### 3. Build the SQLite database
 
-```bash
+```powershell
 python build_database.py
 ```
 
@@ -84,64 +101,49 @@ This creates `data/sales.db` and loads the sales records.
 
 ### 4. Verify the database
 
-```bash
+```powershell
 python verify_database.py
 ```
 
-### 5. Execute the SQL analyses
+### 5. Run the SQL analyses
 
-```bash
+```powershell
 python run_analysis.py
 ```
 
-The runner executes the SQL statements in `sql/sales_analysis.sql`
-and prints the results in the terminal.
-
-## Key Findings
-
-Based on the generated dataset:
-
-- Total revenue: KES 7,060,800.
-- Transactions: 120.
-- Units sold: 362.
-- Highest-revenue product: Laptop, at KES 4,225,000.
-- Highest-revenue region: Mombasa, at KES 1,801,000.
-- Highest-revenue month: May 2026, at KES 1,660,800.
-- Lowest-revenue month: July 2026, at KES 93,800.
-
-These results describe synthetic data and do not represent actual
-business performance.
+The runner executes the SQL statements in `sql/sales_analysis.sql` and prints the analysis results in the terminal.
 
 ## SQL Skills Demonstrated
 
 - `SELECT` and column aliases
-- `SUM()` and `COUNT()`
+- Aggregate functions: `SUM()` and `COUNT()`
 - `GROUP BY` and `ORDER BY`
-- Date grouping with SQLite `strftime()`
-- Database table creation and data integrity constraints
-- Parameterized inserts through Python's SQLite interface
+- Monthly grouping with SQLite `strftime()`
+- Table creation and data integrity constraints
+- Parameterized SQL inserts using Python's `sqlite3` module
+- Validation of loaded records and analytical results
 
 ## Business Report
 
-See [reports/business_insights.md](reports/business_insights.md)
-for the product rankings, regional comparison, recommendations,
-methodology, and limitations.
+Read the [Business Insights Report](reports/business_insights.md) for product rankings, regional comparisons, monthly performance, recommendations, methodology, and limitations.
 
 ## Limitations
 
-This project measures sales revenue, not profit. Product costs,
-operating expenses, and customer-level data are not available.
-The synthetic dataset is designed to demonstrate analytical
-techniques rather than support real commercial decisions.
+This project analyzes sales revenue, not profit. Product costs, operating expenses, and customer-level data are unavailable. Because the dataset is synthetic, the findings should not be used to make real commercial decisions.
 
 ## Future Improvements
 
-- Add profit and gross-margin analysis.
-- Analyze payment methods.
-- Add automated data-quality tests.
-- Build a dashboard using Power BI.
-- Expand the dataset and compare performance across periods.
+- Add product costs and gross-margin analysis.
+- Analyze payment methods and transaction patterns.
+- Implement automated data-quality tests.
+- Build a Power BI dashboard.
+- Expand the dataset to compare performance across longer periods.
 
 ## Author
 
-Created as a hands-on SQL and data analytics portfolio project.
+**Vincent Kenyatta**  
+ICT Professional | Aspiring Data Analyst | Technology Educator
+
+[GitHub Profile](https://github.com/vincentokello770-arch) · [Project Repository](https://github.com/vincentokello770-arch/sql-business-sales-analysis)
+
+This project was developed as a hands-on portfolio exercise to demonstrate practical SQL, Python, database, and business analytics skills.

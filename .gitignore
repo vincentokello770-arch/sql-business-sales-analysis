@@ -1,0 +1,18 @@
+﻿# Python cache and temporary files
+__pycache__/
+*.py[cod]
+
+# Local SQLite database (rebuildable from the CSV)
+data/sales.db
+data/*.db-journal
+
+# Environment and editor files
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db

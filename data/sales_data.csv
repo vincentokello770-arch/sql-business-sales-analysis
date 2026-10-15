@@ -1,0 +1,121 @@
+order_id,order_date,region,product_id,product_name,quantity,unit_price,payment_method
+1,2026-02-27,Kisumu,P006,Headphones,1,3500,Card
+2,2026-03-13,Eldoret,P002,Smartphone,1,28000,M-Pesa
+3,2026-08-05,Nairobi,P005,Monitor,1,18000,M-Pesa
+4,2026-04-30,Eldoret,P002,Smartphone,5,28000,M-Pesa
+5,2026-04-12,Nakuru,P005,Monitor,5,18000,Card
+6,2026-05-23,Mombasa,P004,Mouse,1,900,Bank Transfer
+7,2026-05-23,Mombasa,P003,Keyboard,2,1800,Cash
+8,2026-02-17,Nairobi,P001,Laptop,4,65000,Cash
+9,2026-05-16,Nakuru,P003,Keyboard,1,1800,M-Pesa
+10,2026-02-10,Kisumu,P004,Mouse,5,900,Cash
+11,2026-04-09,Nairobi,P005,Monitor,1,18000,Card
+12,2026-02-10,Nairobi,P003,Keyboard,2,1800,Bank Transfer
+13,2026-08-21,Mombasa,P003,Keyboard,3,1800,Cash
+14,2026-04-18,Nairobi,P003,Keyboard,3,1800,Card
+15,2026-05-06,Nakuru,P005,Monitor,2,18000,Bank Transfer
+16,2026-04-23,Nairobi,P003,Keyboard,3,1800,Card
+17,2026-06-11,Kisumu,P001,Laptop,4,65000,M-Pesa
+18,2026-06-11,Nakuru,P002,Smartphone,2,28000,Bank Transfer
+19,2026-08-23,Kisumu,P006,Headphones,2,3500,Card
+20,2026-05-15,Nakuru,P002,Smartphone,5,28000,Bank Transfer
+21,2026-04-23,Eldoret,P003,Keyboard,2,1800,Bank Transfer
+22,2026-01-25,Mombasa,P001,Laptop,1,65000,Card
+23,2026-08-05,Nairobi,P006,Headphones,5,3500,Bank Transfer
+24,2026-08-28,Kisumu,P004,Mouse,5,900,M-Pesa
+25,2026-02-28,Kisumu,P006,Headphones,5,3500,Cash
+26,2026-05-31,Mombasa,P001,Laptop,4,65000,Bank Transfer
+27,2026-05-15,Mombasa,P001,Laptop,5,65000,M-Pesa
+28,2026-06-02,Eldoret,P006,Headphones,5,3500,Card
+29,2026-07-11,Eldoret,P002,Smartphone,2,28000,M-Pesa
+30,2026-06-15,Nairobi,P005,Monitor,4,18000,M-Pesa
+31,2026-06-07,Nairobi,P003,Keyboard,2,1800,Card
+32,2026-02-10,Nakuru,P005,Monitor,1,18000,M-Pesa
+33,2026-03-06,Nakuru,P005,Monitor,2,18000,Card
+34,2026-09-28,Nakuru,P003,Keyboard,5,1800,Card
+35,2026-04-13,Nakuru,P005,Monitor,3,18000,Cash
+36,2026-09-22,Nairobi,P004,Mouse,4,900,Card
+37,2026-02-02,Nairobi,P002,Smartphone,3,28000,Card
+38,2026-04-23,Nairobi,P005,Monitor,1,18000,M-Pesa
+39,2026-02-04,Kisumu,P002,Smartphone,1,28000,M-Pesa
+40,2026-05-02,Nakuru,P005,Monitor,3,18000,Card
+41,2026-03-09,Eldoret,P005,Monitor,5,18000,Bank Transfer
+42,2026-08-31,Mombasa,P002,Smartphone,4,28000,M-Pesa
+43,2026-08-09,Nakuru,P001,Laptop,3,65000,Bank Transfer
+44,2026-01-28,Nairobi,P004,Mouse,1,900,Bank Transfer
+45,2026-06-23,Mombasa,P006,Headphones,1,3500,Card
+46,2026-08-18,Nakuru,P002,Smartphone,2,28000,Card
+47,2026-08-25,Nairobi,P003,Keyboard,2,1800,Bank Transfer
+48,2026-02-20,Eldoret,P005,Monitor,1,18000,M-Pesa
+49,2026-05-02,Nakuru,P001,Laptop,2,65000,Bank Transfer
+50,2026-04-20,Nairobi,P004,Mouse,4,900,Card
+51,2026-01-02,Kisumu,P004,Mouse,4,900,Bank Transfer
+52,2026-08-05,Nakuru,P003,Keyboard,5,1800,Card
+53,2026-06-01,Nairobi,P002,Smartphone,2,28000,M-Pesa
+54,2026-06-10,Nairobi,P006,Headphones,1,3500,Bank Transfer
+55,2026-09-29,Nairobi,P005,Monitor,2,18000,M-Pesa
+56,2026-02-05,Nairobi,P002,Smartphone,5,28000,Card
+57,2026-03-03,Mombasa,P004,Mouse,5,900,M-Pesa
+58,2026-02-11,Eldoret,P005,Monitor,4,18000,Cash
+59,2026-04-15,Mombasa,P003,Keyboard,3,1800,Cash
+60,2026-03-09,Nakuru,P004,Mouse,3,900,Cash
+61,2026-01-05,Eldoret,P001,Laptop,4,65000,M-Pesa
+62,2026-04-20,Kisumu,P001,Laptop,5,65000,Card
+63,2026-02-05,Kisumu,P003,Keyboard,2,1800,Cash
+64,2026-08-13,Kisumu,P002,Smartphone,5,28000,M-Pesa
+65,2026-06-03,Mombasa,P006,Headphones,1,3500,Cash
+66,2026-02-24,Mombasa,P001,Laptop,5,65000,Cash
+67,2026-04-18,Mombasa,P003,Keyboard,3,1800,Cash
+68,2026-09-08,Nairobi,P005,Monitor,3,18000,M-Pesa
+69,2026-08-05,Nairobi,P006,Headphones,3,3500,M-Pesa
+70,2026-03-08,Mombasa,P003,Keyboard,3,1800,Bank Transfer
+71,2026-08-07,Nairobi,P005,Monitor,5,18000,M-Pesa
+72,2026-03-18,Nairobi,P001,Laptop,5,65000,Cash
+73,2026-03-17,Mombasa,P005,Monitor,4,18000,M-Pesa
+74,2026-07-06,Kisumu,P003,Keyboard,1,1800,Card
+75,2026-05-08,Kisumu,P006,Headphones,1,3500,Bank Transfer
+76,2026-03-21,Mombasa,P005,Monitor,2,18000,Card
+77,2026-01-13,Kisumu,P004,Mouse,2,900,Bank Transfer
+78,2026-05-08,Mombasa,P006,Headphones,3,3500,M-Pesa
+79,2026-01-20,Mombasa,P004,Mouse,4,900,Card
+80,2026-06-29,Mombasa,P004,Mouse,3,900,Card
+81,2026-04-09,Kisumu,P001,Laptop,4,65000,Cash
+82,2026-05-23,Eldoret,P001,Laptop,3,65000,Bank Transfer
+83,2026-06-19,Nairobi,P006,Headphones,1,3500,Cash
+84,2026-05-16,Nairobi,P002,Smartphone,1,28000,Bank Transfer
+85,2026-06-10,Eldoret,P003,Keyboard,4,1800,M-Pesa
+86,2026-04-08,Nairobi,P004,Mouse,3,900,Bank Transfer
+87,2026-09-24,Mombasa,P001,Laptop,5,65000,Cash
+88,2026-02-05,Eldoret,P004,Mouse,3,900,Cash
+89,2026-03-05,Eldoret,P006,Headphones,3,3500,Cash
+90,2026-07-29,Nakuru,P006,Headphones,3,3500,Cash
+91,2026-03-07,Nakuru,P005,Monitor,2,18000,Bank Transfer
+92,2026-03-31,Eldoret,P006,Headphones,5,3500,Cash
+93,2026-01-01,Kisumu,P004,Mouse,3,900,Card
+94,2026-06-14,Nakuru,P004,Mouse,4,900,Bank Transfer
+95,2026-04-20,Nakuru,P006,Headphones,5,3500,Card
+96,2026-02-13,Eldoret,P006,Headphones,3,3500,Cash
+97,2026-05-01,Mombasa,P001,Laptop,3,65000,Card
+98,2026-01-13,Mombasa,P002,Smartphone,1,28000,Bank Transfer
+99,2026-02-07,Nakuru,P005,Monitor,4,18000,Card
+100,2026-07-16,Nakuru,P006,Headphones,4,3500,Card
+101,2026-01-03,Nakuru,P002,Smartphone,1,28000,Card
+102,2026-09-23,Nairobi,P002,Smartphone,4,28000,Card
+103,2026-08-22,Nakuru,P001,Laptop,2,65000,Cash
+104,2026-09-16,Eldoret,P004,Mouse,4,900,Bank Transfer
+105,2026-09-01,Kisumu,P002,Smartphone,4,28000,Card
+106,2026-05-22,Nakuru,P006,Headphones,5,3500,Card
+107,2026-08-14,Kisumu,P003,Keyboard,1,1800,Card
+108,2026-06-21,Eldoret,P003,Keyboard,3,1800,M-Pesa
+109,2026-03-19,Nakuru,P002,Smartphone,2,28000,Card
+110,2026-04-20,Nakuru,P006,Headphones,1,3500,Bank Transfer
+111,2026-08-27,Nairobi,P003,Keyboard,4,1800,Card
+112,2026-07-19,Nairobi,P004,Mouse,5,900,Bank Transfer
+113,2026-01-04,Kisumu,P004,Mouse,3,900,Bank Transfer
+114,2026-04-23,Mombasa,P004,Mouse,4,900,Cash
+115,2026-09-06,Nakuru,P004,Mouse,1,900,Cash
+116,2026-07-27,Nakuru,P006,Headphones,2,3500,Card
+117,2026-01-14,Eldoret,P005,Monitor,4,18000,M-Pesa
+118,2026-08-08,Nakuru,P001,Laptop,2,65000,Card
+119,2026-05-14,Kisumu,P001,Laptop,4,65000,Card
+120,2026-06-17,Nakuru,P004,Mouse,3,900,Cash
